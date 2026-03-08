@@ -3,19 +3,17 @@ from datetime import datetime
 import google_sheets
 import time
 
-URLS = [
-       https://chartink.com/screener/copy-copy-copy-future-and-option-pin-bar-pranshu-tiwari-2",	
+URLS = ["https://chartink.com/screener/copy-copy-copy-future-and-option-pin-bar-pranshu-tiwari-2",	
        "https://chartink.com/screener/copy-akshat-monthly-momentum-37",	
        "https://chartink.com/screener/agp-shesha-bulloong1",	
        "https://chartink.com/screener/copy-mahi-2-master-trader-vishnu-final-40-address-this-urgent-bellinaire-38-to-47-3",
        "https://chartink.com/screener/copy-positional-f-0-at-2",
        "https://chartink.com/screener/copy-f-0-6",
-       "https://chartink.com/screener/copy-atr-volume-f-o-200-wkly-rsi-70-16"
+       "https://chartink.com/screener/copy-vikram-rocket-up-nr7"
 ]
 
 sheet_id = "1rTXRUjHkEa9lQMzxelvc_ApFuFz45zKNLeR1SBJ5gTY"
-worksheet_names = [
-    "p1","p2","p3","p4","p5","p6","p7"
+worksheet_names = ["p1","p2","p3","p4","p5","p6","p7"
 ]
 
 def scrape_chartink(url, worksheet_name):
