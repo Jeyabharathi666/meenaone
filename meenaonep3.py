@@ -3,7 +3,8 @@ from datetime import datetime
 import google_sheets
 import time
 
-URL = ["https://chartink.com/screener/copy-bearish-engulifing-see-after-3-15-pm-for-next-day-trade-5168",	
+URL = [
+	  "https://chartink.com/screener/copy-bearish-engulifing-see-after-3-15-pm-for-next-day-trade-5168",	
       "https://chartink.com/screener/copy-bearish-maribozu-337",
  	  "https://chartink.com/screener/copy-yesterday-and-today-ema3-without-open-high-bearish-55",
  	  "https://chartink.com/screener/copy-bearish-engulfing-moderate-478",
@@ -27,15 +28,12 @@ URL = ["https://chartink.com/screener/copy-bearish-engulifing-see-after-3-15-pm-
 	  "https://chartink.com/screener/copy-ut-sell-eod-basis-5",
 	  "https://chartink.com/screener/copy-sell-f-0",
 	  "https://chartink.com/screener/copy-perfect-bearish-3266",
-	  "https://chartink.com/screener/50-bearish-engulifing-see-after-3-15-pm-for-next-day-trade",
-	  "https://chartink.com/screener/50aaaagp-shesha-bearish-2",
-	  "https://chartink.com/screener/50stocks-in-downtrend",
-	  "https://chartink.com/screener/copy-perfect-bearish-3537",
-	  "https://chartink.com/screener/copy-chanakya-bearish-scanner-working-2803"
-	]
+	  "https://chartink.com/screener/50-bearish-engulifing-see-after-3-15-pm-for-next-day-trade"
+	 ]
        
 sheet_id = "1rTXRUjHkEa9lQMzxelvc_ApFuFz45zKNLeR1SBJ5gTY"
-worksheet_name = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15","p16","p17","p18","p19","p20","p21","p22","p23","p24","p25","p26","p27","p28","p29"]
+worksheet_name = ["p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15","p16","p17","p18","p19","p20","p21","p22","p23","p24","p25"]
+
 def scrape_chartink(url, worksheet_name):
     print(f"\n🚀 Starting scrape for '{worksheet_name}'")
     print(f"🌐 Loading URL: {url}")
