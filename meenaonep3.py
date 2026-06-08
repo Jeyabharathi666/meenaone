@@ -3,7 +3,7 @@ from datetime import datetime
 import google_sheets
 import time
 
-URL = [
+URLS = [
 	  "https://chartink.com/screener/copy-bearish-engulifing-see-after-3-15-pm-for-next-day-trade-5168",	
       "https://chartink.com/screener/copy-bearish-maribozu-337",
  	  "https://chartink.com/screener/copy-yesterday-and-today-ema3-without-open-high-bearish-55",
