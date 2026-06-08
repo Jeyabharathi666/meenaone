@@ -106,5 +106,5 @@ def scrape_chartink(url, worksheet_name):
         print(f"✅ Worksheet '{worksheet_name}' updated.")
 
 for index, url in enumerate(URLS):
-    scrape_chartink(url, worksheet_names[index])
-    print(f"⏱️ Finished updating '{worksheet_names[index]}'")
+    scrape_chartink(url, worksheet_name[index])
+    print(f"⏱️ Finished updating '{worksheet_name[index]}'")
